@@ -12,6 +12,12 @@ class soundcard:
     file = package[1] + filetype
     path = os.path.join(package,file)
     packages.append(path)
-    n = open("name.scd","a")
+    n = open(os.path.join(package[0],"name.scd"),"a")
     n.write(name)
-    d = open("desc.scd","a")
+    d = open(os.path.join(package[0],"desc.scd"),"a")
+    d.write(desc)
+    n.close()
+    d.close()
+    
+  def build():
+    for 

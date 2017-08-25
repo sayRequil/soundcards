@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
-import soundcard as sc
+from soundcard import soundcard as sc
 import soundcard.argparser as ap
 
 parser = ap.parser()
 
 args = parser.getArgs
 if args[0] == "build":
-  sc.build()
+  sc(build=True)
   
   
 #

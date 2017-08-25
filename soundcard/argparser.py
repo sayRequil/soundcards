@@ -6,3 +6,6 @@ class ArgParser:
     
   def parser(self):
     return self
+  
+  def addArg(arr,n):
+    return "-" + n

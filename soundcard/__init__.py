@@ -4,7 +4,7 @@ import pygame
 packages = []
 
 class soundcard:
-  def __init__(name="",description="",author="",filetype="mp4",sound="sound",package=["soundcard","sound"],build=False):
+  def __init__(name="",description="",author="",filetype=".mp4",sound="sound",package=["soundcard","sound"],build=False):
     # name: Name of the soundcard.
     # description: A short description describing the soundcard.
     # filetype: The type of sound file.
